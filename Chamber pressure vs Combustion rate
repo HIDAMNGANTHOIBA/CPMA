@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 
 plt.style.use('classic')
 
-x = np.linspace(11,20,30) # here x = combustion pressure
+x = np.linspace(11,20,30) """ here x = combustion pressure"""
 print(x)
-a = 0.000273 #..temperature cofficient..
-y = a*((x*1000000)**0.3)*1000 # here y = ccombustion rate
+a = 0.000273 """..temperature cofficient.."""
+y = a*((x*1000000)**0.3)*1000 """ here y = ccombustion rate """
 
 plt.scatter(x,y,marker='*',color='m',linewidth=2)
 plt.xlabel('Combustion pressure')
